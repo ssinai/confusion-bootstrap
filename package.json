@@ -11,13 +11,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "scss":"node-sass -o css/ css/"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
     "popper.js": "^1.12.9"
   }
 }
